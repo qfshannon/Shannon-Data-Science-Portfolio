@@ -1,7 +1,7 @@
 # Shannon-Data-Science-Portfolio
 
 ## Overview
-This repository showcases my developing programming proficiency and data literacy skills. Over the course of the Spring 2026 semester, I completed projects that allowed me to:
+This repository showcases my developing programming proficiency and data literacy. Over the course of the Spring 2026 semester, I completed projects that allowed me to:
 1. Understand the Data Science Pipeline
 
 2. Develop Technical Skills in Data Science Tools
