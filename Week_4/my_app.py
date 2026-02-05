@@ -30,3 +30,9 @@ st.dataframe(filtered_df)
 
 ## Add bar chart
 st.bar_chart(df["Salary"]) # Look in API for intructions to write axis labels
+
+import seaborn as sns
+
+box_plot1 = sns.boxplot(x=df["City"], y=df["Salary"])
+
+st.pyplot(box_plot1.get_figure())
