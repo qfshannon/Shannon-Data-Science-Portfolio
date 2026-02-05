@@ -2,7 +2,7 @@ import streamlit as st
 
 # Markdown Hashtag
 st.title("Hello, Streamlit!")
-st.markdown("# Hello, streamlit!")
+# st.markdown("# Hello, Streamlit!") does the same thing
 
 st.write("This is my first Streamlit app.")
 
