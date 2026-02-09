@@ -11,11 +11,5 @@ This repository showcases my developing programming proficiency and data literac
 6. Implement Data Science Projects
 7. Communicate Data Insights Effectively
 
-## EDA
-[EDA Projects](EDA)
-
-## Visualizations
-[Visualization Projects](Visualizations)
-
-## Models
-[Modeling Projects](Models)
+## My Projects
+- [Project 1: Build a Streamlit App](basic_streamlit_app)
