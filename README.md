@@ -1,7 +1,7 @@
 # Shannon-Data-Science-Portfolio
 
 ## Overview
-This repository showcases my developing programming proficiency and data literacy. While enrolled in Notre Dame's "Introduction to Data Science" course during the Spring 2026 semester, I completed projects that helped me to:
+This repository showcases my developing programming proficiency and data literacy. While enrolled in Notre Dame's "Introduction to Data Science" course during the Spring 2026 semester, I completed projects that helped me:
 1. Understand the Data Science Pipeline
 2. Develop Technical Skills in Data Science Tools
 3. Apply Machine Learning Techniques
