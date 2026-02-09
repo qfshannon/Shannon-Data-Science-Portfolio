@@ -9,6 +9,6 @@ App can be found on [World Happiness Explorer](http://10.146.194.119:8501)
 
 
 **To Open With Code:**
-1. Download [main.py](main.py) and open in coding environment (VS Code)
+1. [Download zip of Shannon-Data-Science-Portfolio](https://github.com/qfshannon/Shannon-Data-Science-Portfolio/archive/refs/heads/main.zip) and open in coding environment (VS Code)
 2. Open the terminal and install streamlit: pip install streamlit
 3. Run the Streamlit app using: streamlit run basic_streamlit_app/main.py
