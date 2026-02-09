@@ -16,6 +16,7 @@ page = st.sidebar.radio("Navigate", ["Overview", "2019 Results", "Filter by Coun
 # Create tab 1: overview/introduction to the app
 if page == "Overview":
     st.title("World Happiness Explorer 😊")
+    st.markdown('###### Streamlit App by [Quinn Shannon](https://www.linkedin.com/in/quinnfshannon/)')
     st.write("Explore how different variables influenced happiness scores in 2019 and learn what factors contributed to quality of life around the world.")
 
     st.subheader("But First...")
