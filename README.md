@@ -12,7 +12,7 @@ This repository showcases my developing programming proficiency and data literac
 
 ## My Projects
 Project 1: Build a Streamlit App to Present a Dataset
-- [View my streamlit project](basic_streamlit_app)
+- [View my Streamlit project](basic_streamlit_app)
 
   - For this project, I built an interactive Streamlit application to present and explore data from the 2019 World Happiness Report.
   - This app allows users to visualize happiness scores across countries and examine how different factors contribute to wellbeing.
