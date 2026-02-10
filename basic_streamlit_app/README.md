@@ -8,4 +8,5 @@ For this project, I chose to build a Streamlit app to present data from the **20
 **To Open With Code:**
 1. [Download zip of Shannon-Data-Science-Portfolio](https://github.com/qfshannon/Shannon-Data-Science-Portfolio/archive/refs/heads/main.zip) and open in coding environment (VS Code)
 2. Open the terminal and install streamlit: pip install streamlit
-3. Run the Streamlit app using: streamlit run basic_streamlit_app/main.py
+3. Run from basic_streamlit_app folder: cd basic_streamlit_app
+4. Run the Streamlit app using: streamlit run main.py
