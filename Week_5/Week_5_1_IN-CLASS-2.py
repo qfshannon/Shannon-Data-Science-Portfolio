@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt  # For creating custom plots
 import streamlit as st         # Framework for building interactive web apps
 
 # ================================================================================
-#Missing Data & Data Quality Checks
+# Missing Data & Data Quality Checks
 #
 # This lecture covers:
 # - Data Validation: Checking data types, missing values, and ensuring consistency.
