@@ -24,15 +24,15 @@ After data cleaning and tidying, each variable was represented by its own column
 ![Tidy Data](visuals/after_tidy.png)
 
 ## Explore References to Learn More
-- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf): 
 - [Tidy Data Principles](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 ## Visual Examples
-Visualization 1: 
+**Visualization 1:** Tidy data enabled straightforward visualization number of medals distributed by sport.
 ![Medals by Sport](visuals/medals_by_sport.png)
 
-Visualization 2:
+**Visualization 2:** Tidy data facilitated visualization of number of medals earned by sex.
 ![Medals by Sex](visuals/medals_by_sex.png)
 
-Pivot Table:
+**Pivot Table:** Tidy data easily aggregated into summary table to organize and display medal counts by gender and sport.
 ![Pivot Table](visuals/pivot.png)
