@@ -38,12 +38,24 @@ To run this notebook:
 4. Run code to view outputs.
 
 ## Dataset Description
-[This dataset](data/olympics_08_medalists.csv) was modified from data on the [2008 Summer Olympics](https://edjnet.github.io/OlympicsGoNUTS/2008/). Each observation includes information on athlete identity, event (including sex and sport), and medal type. Before initiating the data tidying process, data was preprocessed to standardize capitalization and spacing conventions.
+[This dataset](data/olympics_08_medalists.csv) was modified from data on the [2008 Summer Olympics](https://edjnet.github.io/OlympicsGoNUTS/2008/). Before initiating the data tidying process, data was preprocessed to standardize capitalization and spacing conventions. Original features included medalist name and each sex-sport combination. The associated observations consisted of name and medal type earned.
+
+After data cleaning and tidying, each variable was represented by its own column, and each observation by its own row. Processed features included 'Medalist Name', 'Sex', 'Sport', and 'Medal', upholding the aforementioned principles of tidy data.
+- Original Dataset:
+![Messy Data](visuals/before_tidy.png)
+- Tidy Dataset:
+![Tidy Data](visuals/after_tidy.png)
 
 ## Explore References to Learn More
 - [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 - [Tidy Data Principles](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 ## Visual Examples
-(visuals/before_tidy)
+Visualization 1: 
+![Medals by Sport](visuals/medals_by_sport.png)
 
+Visualization 2:
+![Medals by Sex](visuals/medals_by_sex.png)
+
+Pivot Table:
+![Pivot Table](visuals/pivot.png)
