@@ -28,11 +28,11 @@ After data cleaning and tidying, each variable was represented by its own column
 - [Tidy Data Principles](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 ## Visual Examples
-**Visualization 1:** Tidy data enabled straightforward visualization number of medals distributed by sport.
+**Visualization 1:** Demonstrates how tidy data enables straightforward visualization number of medals distributed by sport.
 ![Medals by Sport](visuals/medals_by_sport.png)
 
-**Visualization 2:** Tidy data facilitated visualization of number of medals earned by sex.
+**Visualization 2:** Exemplifies how tidy data facilitates visualization of number of medals earned by sex.
 ![Medals by Sex](visuals/medals_by_sex.png)
 
-**Pivot Table:** Tidy data easily aggregated into summary table to organize and display medal counts by gender and sport.
+**Pivot Table:** Shows how easily tidy data can be aggregated to form a summary displaying medal counts by gender and sport.
 ![Pivot Table](visuals/pivot.png)
