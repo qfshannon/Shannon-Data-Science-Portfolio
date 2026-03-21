@@ -9,9 +9,9 @@ Objective: transform a dataset containing information on 2008 Olympic medalists 
 
 ## Instructions
 To run this notebook:
-1. [Download zip of Shannon-Data-Science-Portfolio](https://github.com/qfshannon/Shannon-Data-Science-Portfolio/archive/refs/heads/main.zip) and open in coding environment (VS Code)
-2. Open TidyData-Project
-3. Open main.ipynb
+1. Download [zip of Shannon-Data-Science-Portfolio](https://github.com/qfshannon/Shannon-Data-Science-Portfolio/archive/refs/heads/main.zip) and open in coding environment (VS Code)
+2. Open TidyData-Project folder.
+3. Open main.ipynb file.
 4. Run code to view outputs.
 
 ## Dataset Description
