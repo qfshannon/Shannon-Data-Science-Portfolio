@@ -15,7 +15,7 @@ To run this notebook:
 4. Run code to view outputs.
 
 ## Dataset Description
-[This dataset](data/olympics_08_medalists.csv) was modified from [2008 Summer Olympics](https://edjnet.github.io/OlympicsGoNUTS/2008/). Each observation includes information on athlete identity, event (including sex and sport), and medal type. Before initiating the data tidying process, data was preprocessed to standardize capitalization and spacing conventions.
+[This dataset](data/olympics_08_medalists.csv) was modified from data on the [2008 Summer Olympics](https://edjnet.github.io/OlympicsGoNUTS/2008/). Each observation includes information on athlete identity, event (including sex and sport), and medal type. Before initiating the data tidying process, data was preprocessed to standardize capitalization and spacing conventions.
 
 ## Explore References to Learn More
 - [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
