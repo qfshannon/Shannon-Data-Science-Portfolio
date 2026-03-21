@@ -1,4 +1,4 @@
-# Data Science Project #1
+# Data Science Project #1: Present Data with Streamlit
 Goal: Design a Basic Streamlit Application to Display Data
 
 ## World Happiness Explorer App
