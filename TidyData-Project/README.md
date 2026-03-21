@@ -24,8 +24,8 @@ After data cleaning and tidying, each variable was represented by its own column
 ![Tidy Data](visuals/after_tidy.png)
 
 ## Explore References to Learn More
-- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf): 
-- [Tidy Data Principles](https://vita.had.co.nz/papers/tidy-data.pdf)
+- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf): Overview of tidy data principles in Pandas
+- [Tidy Data Principles](https://vita.had.co.nz/papers/tidy-data.pdf): In-depth description of tidy data principles and purposes.
 
 ## Visual Examples
 **Visualization 1:** Demonstrates how tidy data enables straightforward visualization number of medals distributed by sport.
