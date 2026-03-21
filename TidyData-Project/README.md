@@ -1,7 +1,7 @@
 # Data Science Project #2: Data Cleaning & Tidy Data
 Goal: Create a project that applies the principles of tidy data using Python. Develop a Jupyter Notebook that cleans and visualizes data using a 2008 Olympic Medalists dataset.
 
-## 2008 Olympic Medalists Tidy Data
+## 2008 Olympic Medalists Tidy Data Project
 Objective: transform a dataset containing information on 2008 Olympic medalists so that...
 - Each variable is in its own column.
 - Each observation forms its own row.
