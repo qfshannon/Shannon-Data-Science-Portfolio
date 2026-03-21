@@ -17,3 +17,9 @@ Project 1: Build a Streamlit App to Present a Dataset
   - For this project, I built an interactive Streamlit application to present and explore data from the 2019 World Happiness Report.
   - This app allows users to visualize happiness scores across countries and examine how different factors contribute to wellbeing.
   - Completing this project helped me strengthened my Python skills, visualization strategies, and experience building applications using Streamlit.
+ 
+Project 2: Data Cleaning and Tidy Data
+- [View my Tidy Data project](TidyData-Project)
+
+   -  For this project, I transformed a messy, wide-format 2008 Olympics dataset into a clean and structured tidy dataset using Python and Pandas.
+   -  Completing this project helped me gain experience and understand firsthand how tidy data enhances organization and facilitates more intuitive and insightful data presentation, visualization, and summary.
