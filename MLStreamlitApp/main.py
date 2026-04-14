@@ -32,7 +32,7 @@ tab1, tab2, tab3 = st.tabs(["Overview 💬", "Data Visualization 📊", "Model E
 # Step 2: Build tab 1
 # Tab 1 provides an overview of KNN and defines key parameters.
 with tab1:
-    st.header("About K-Nearest Neigbors (KNN)")
+    st.header("Introduction to K-Nearest Neigbors (KNN)")
     st.markdown("Click each button to learn more about KNN")
     if st.button("What is KNN?"):  # Buttons allow users to move through background information at their own pace.
         st.markdown("KNN is a simple model that can be used for classification tasks where outcomes are categorical. KNN relies on the idea that similar data points in the feature space tend to have similar outcomes.")
@@ -48,8 +48,8 @@ with tab1:
 # Step 3: Build tab 2
 # Tab 2 allows viewers to explore and visualize their chosen dataset and its features.
 with tab2:
-    st.header("Data Visualization")
-    st.markdown("Visualize your chosen dataset and explore its features.")
+    st.header("Explore the Data")
+    st.markdown("Take a moment to visualize your chosen dataset and its features! This will help you understand the data and how KNN works to classify data points based on feature similarity.")
 
     # Load a dataset based on the user's input.
     if data_options == "Breast Cancer":
@@ -124,6 +124,8 @@ with tab2:
 
 # Step 5: Build tab 2 (continued).
 # This interactive visualization allows users to select features for the x and y axes and observe patterns in the data. Though users cannot visualize every feature at once, this feature allows them to understand how feature similarity relates to class similarity.
+    st.subheader("Feature Visualization")
+    st.markdown("Select features to visualize how data points cluster based on feature similarity and class labels.")
     features = X.columns.tolist()  # Creates a list of features (excluding the target variable) for users to select.
     
     x_axis = st.selectbox("X-axis feature", features, index=0)  # Create dropdowns to select x- and y-axis features.
