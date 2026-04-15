@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Set page icon and title for the Tab display
-st.set_page_config(page_title='World Happiness Explorer', page_icon = "data/WHR.jpg")
+st.set_page_config(page_title='World Happiness Explorer', page_icon = "/Users/quinnshannon/Documents/GitHub/Shannon-Data-Science-Portfolio/Basic_Streamlit_App/data") #data/WHR.jpg")
 
 # Create sidebar with logo
 st.logo("data/WHR.jpg", size="large")
