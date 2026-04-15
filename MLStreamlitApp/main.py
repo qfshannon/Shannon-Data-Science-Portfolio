@@ -46,9 +46,9 @@ with tab1:
     with col3:
         btn3 = st.button("Key Parameters of KNN", use_container_width=True)
         if btn3:
-            st.markdown("- **Number of Neighbors (k)**: Determines how many nearby data points are considered in the classification of a new data point. It is important to select a number of neighbors that captures patterns in the data without overfitting or underfitting.")
-            st.markdown("- **Weight Function**: Determines how much influence each neighbor has on the classification. 'Uniform' gives equal weight to all neighbors, while 'distance' gives more weight to closer neighbors. This can improve performance by accounting for the relevance of nearby points.")
-            st.markdown("- **Distance Metric**: Determines how distance is calculated between data points. Common metrics include 'euclidean', 'manhattan', and 'cosine'. Choosing the right distance metric allows the model to adapt to the shape of the neighborhood and improves model performance.")
+            st.markdown("**Number of Neighbors (k)**: Determines how many nearby data points are considered in the classification of a new data point. It is important to select a number of neighbors that captures patterns in the data without overfitting or underfitting.")
+            st.markdown("**Weight Function**: Determines how much influence each neighbor has on the classification. 'Uniform' gives equal weight to all neighbors, while 'distance' gives more weight to closer neighbors. This can improve performance by accounting for the relevance of nearby points.")
+            st.markdown("**Distance Metric**: Determines how distance is calculated between data points. Common metrics include 'euclidean', 'manhattan', and 'cosine'. Choosing the right distance metric allows the model to adapt to the shape of the neighborhood and improves model performance.")
 
 
 
