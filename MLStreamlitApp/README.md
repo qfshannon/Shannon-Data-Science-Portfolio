@@ -7,9 +7,9 @@ The goal of this project is to create an interactive Streamlit application that 
 **1. Model & Parameters**
 - This app incorporates a K-Nearest Neighbors (KNN) machine learning model, which classifies unseen data points based on the measured proximity of their nearest neighbors in the feature space.
 - Users have the ability to adjust the parameters used to train KNN and observe how each adjustment influences model performance.
-  - Number of Neighbors (k): Users can adjust 'k' values to control the number of neighboring data points considered
-  - Weight Function: Users can choose between 'uniform' (neighbors have equal weight) or 'distance' (closer neighbors have more influence)
-  - Distance Metric: Users can select 'euclidean' (straight line), 'manhattan' (grid-like), and 'cosine' (vector angle) calculations
+  - **Number of Neighbors (k):** Users can adjust 'k' values to control the number of neighboring data points considered
+  - **Weight Function:** Users can choose between 'uniform' (neighbors have equal weight) or 'distance' (closer neighbors have more influence)
+  - **Distance Metric:** Users can select 'euclidean' (straight line), 'manhattan' (grid-like), and 'cosine' (vector angle) calculations
  
 <p align="center">
   <img src="visuals/sidebar.png" width="250">
