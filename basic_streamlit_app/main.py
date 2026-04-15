@@ -6,7 +6,7 @@ import pandas as pd
 st.set_page_config(page_title='World Happiness Explorer', page_icon = "data/WHR.jpg")
 
 # Create sidebar with logo
-st.logo("/Users/quinnshannon/Documents/GitHub/Shannon-Data-Science-Portfolio/Basic_Streamlit_App/data/WHR.jpg", size="large")
+st.logo("data/WHR.jpg", size="large")
 st.sidebar.title("Table of Contents")
 page = st.sidebar.radio("Navigate", ["Overview", "2019 Results", "Filter by Country", "Compare Across Countries"])
 
