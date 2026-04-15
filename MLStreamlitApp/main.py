@@ -34,6 +34,13 @@ tab1, tab2, tab3 = st.tabs(["Overview 💬", "Data Visualization 📊", "Model E
 with tab1:
     st.header("Introduction to K-Nearest Neigbors (KNN)")
     st.markdown("Click each button to learn more about KNN")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        btn1 = st.button("What is KNN?", use_container_width=True)
+    with col2:
+        btn2 = st.button("How does KNN work?", use_container_width=True)
+    with col3:
+        btn3 = st.button("Key Parameters of KNN", use_container_width=True)
     if st.button("What is KNN?"):  # Buttons allow users to move through background information at their own pace.
         st.markdown("KNN is a simple model that can be used for classification tasks where outcomes are categorical. KNN relies on the idea that similar data points in the feature space tend to have similar outcomes.")
     if st.button("How does KNN work?"):
