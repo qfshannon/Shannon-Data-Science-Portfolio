@@ -6,7 +6,15 @@ import pandas as pd
 st.set_page_config(page_title='World Happiness Explorer', page_icon = "data/WHR.jpg")
 
 # Create sidebar with logo
-st.logo("data/WHR.jpg", size="large")
+import os
+
+# Get the directory where main.py is located
+base_path = os.path.dirname(__file__)
+# Combine it with the relative path to the image
+logo_path = os.path.join(base_path, "data", "WHR.jpg")
+st.logo(logo_path, size="large")
+
+# st.logo("data/WHR.jpg", size="large")
 st.sidebar.title("Table of Contents")
 page = st.sidebar.radio("Navigate", ["Overview", "2019 Results", "Filter by Country", "Compare Across Countries"])
 
