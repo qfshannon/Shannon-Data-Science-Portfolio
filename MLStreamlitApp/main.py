@@ -37,18 +37,18 @@ with tab1:
     col1, col2, col3 = st.columns(3)
     with col1:
         btn1 = st.button("What is KNN?", use_container_width=True)
+        if btn1:
+            st.markdown("KNN is a simple model that can be used for classification tasks where outcomes are categorical. KNN relies on the idea that similar data points in the feature space tend to have similar outcomes.")
     with col2:
         btn2 = st.button("How does KNN work?", use_container_width=True)
+        if btn2:
+            st.markdown("KNN classifies new data points by calculating the distance between a new data point and all training examples, then identifying the 'k' nearest neighboring data points and assigning the class most common among its neighbors to the new data point.")
     with col3:
         btn3 = st.button("Key Parameters of KNN", use_container_width=True)
-    if st.button("What is KNN?"):  # Buttons allow users to move through background information at their own pace.
-        st.markdown("KNN is a simple model that can be used for classification tasks where outcomes are categorical. KNN relies on the idea that similar data points in the feature space tend to have similar outcomes.")
-    if st.button("How does KNN work?"):
-        st.markdown("KNN classifies new data points by calculating the distance between a new data point and all training examples, then identifying the 'k' nearest neighboring data points and assigning the class most common among its neighbors to the new data point.")
-    if st.button("Key Parameters of KNN"):
-        st.markdown("- **Number of Neighbors (k)**: Determines how many nearby data points are considered in the classification of a new data point. It is important to select a number of neighbors that captures patterns in the data without overfitting or underfitting.")
-        st.markdown("- **Weight Function**: Determines how much influence each neighbor has on the classification. 'Uniform' gives equal weight to all neighbors, while 'distance' gives more weight to closer neighbors. This can improve performance by accounting for the relevance of nearby points.")
-        st.markdown("- **Distance Metric**: Determines how distance is calculated between data points. Common metrics include 'euclidean', 'manhattan', and 'cosine'. Choosing the right distance metric allows the model to adapt to the shape of the neighborhood and improves model performance.")
+        if btn3:
+            st.markdown("- **Number of Neighbors (k)**: Determines how many nearby data points are considered in the classification of a new data point. It is important to select a number of neighbors that captures patterns in the data without overfitting or underfitting.")
+            st.markdown("- **Weight Function**: Determines how much influence each neighbor has on the classification. 'Uniform' gives equal weight to all neighbors, while 'distance' gives more weight to closer neighbors. This can improve performance by accounting for the relevance of nearby points.")
+            st.markdown("- **Distance Metric**: Determines how distance is calculated between data points. Common metrics include 'euclidean', 'manhattan', and 'cosine'. Choosing the right distance metric allows the model to adapt to the shape of the neighborhood and improves model performance.")
 
 
 
