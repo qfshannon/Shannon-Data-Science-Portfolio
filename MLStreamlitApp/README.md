@@ -22,7 +22,7 @@ The goal of this project is to create an interactive Streamlit application that 
 - Performance measures are calculated and displayed in real time based on dataset and parameter selection.
 
 **Accuracy Score:** Calculates the overall percentage of correct predictions and depicts a plot of accuracy by number of neighbors for the specific model.
-![Accuracy](
+![Accuracy](visuals/
   
 **Confusion Matrix:** Creates a heatmap to show true positives, true negatives, false positives, and false negatives. This allows users to consider different error types.
 
