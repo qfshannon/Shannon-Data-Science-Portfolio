@@ -157,8 +157,11 @@ with tab3:
     # Calculate and display the selected metric.
     # Calculate accuracy by comparing true 'y_test' labels to predicted 'y_pred' labels.
     if eval_metric == "Accuracy":
+        # Define accuracy
+        st.subheader("Accuracy Score")
+        st.markdown("Accuracy is the proportion of correct predictions out of all predictions made. It is a popular evaluation metric when classes are balanced and the costs of false positives and false negatives are similar. A greater accuracy score indicates better model performance.")
         accuracy = accuracy_score(y_test, y_pred) # Calulates accuracy score.
-        st.write(f"**Accuracy = {accuracy:.2f}**")
+        st.write(f"**Current Model Accuracy = {accuracy:.2f}**")
         # Create a plot showing accuracy vs. number of neighbors (k) to help users visualize how k influences model performance within the chosen dataset.
         k_values = range(1, 26, 2)  # Defines range of k values (odd numbers only to avoid ties).
         accuracies = [] 
@@ -176,14 +179,33 @@ with tab3:
         ax.set_xticks(k_values)
         st.pyplot(fig)
     # Create a confusion matrix to show counts of true positives, true negatives, false positives, and false negatives.
-    elif eval_metric == "Confusion Matrix":  
+    elif eval_metric == "Confusion Matrix":
+        st.subheader("Confusion Matrix")
+        st.markdown("A confusion matrix shows the counts of true positives, true negatives, false positives, and false negatives. It provides more detailed information about model performance than accuracy alone and is especially useful for understanding different types of error.")
+        # st.markdown("**Confusion Matrix**")
         cm = confusion_matrix(y_test, y_pred)
         sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
         plt.title("KNN Confusion Matrix")
         plt.xlabel("Predicted")
         plt.ylabel("Actual")
         st.pyplot(plt)
-    # Generate a classification report to provide a breakdown of precision, recall, f1-score, and support for each class and for overall model performance.
+        # Key
+        confusion_defs = {"Predicted 0": {"Actual 0": "True Negative (TN)", "Actual 1": "False Negative (FN)"},
+                          "Predicted 1": {"Actual 0": "False Positive (FP)", "Actual 1": "True Positive (TP)"}}
+        df_defs = pd.DataFrame(confusion_defs)
+        st.write("**Confusion Matrix Key**")
+        st.table(df_defs)
+
+    # Generate a classification report to display precision, recall, f1-score, and support for each class and for overall model performance.
     elif eval_metric == "Classification Report":
+        st.subheader("Classification Report")
+        st.markdown("A classification report calculates precision, recall, f1-score, and support for each class and for as overall model performance. It helps evaluate how well the model performs across different classes and can reveal consistencies or discrepancies.")
+        st.markdown("**Classification Report**")
         cr = classification_report(y_test, y_pred)
         st.code(cr, language=None) # Displays classification report as plain text within a code block.
+        # Key
+        st.write("**Classification Report Key**")
+        st.write("- **Precision**: The proportion of true positives out of all predicted positives. It measures the accuracy of positive predictions.")
+        st.write("- **Recall**: The proportion of true positives out of all actual positives. It measures the model's ability to identify positive cases.")
+        st.write("- **F1-Score**: The harmonic mean of precision and recall, which balances both metrics.")
+        st.write("- **Support**: The number of actual occurrences of each class in the test set.")
