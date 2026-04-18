@@ -6,7 +6,7 @@ For this project, I chose to build a Streamlit app to present data from the **20
 
 ### About the Data
 **Features:**
-![WHR Data](assets/whr_data.png)
+![WHR Data](basic_streamlit_app/data/whr_data.png)
 
 - example visualizations
 
