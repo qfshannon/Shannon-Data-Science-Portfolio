@@ -4,6 +4,11 @@ Goal: Design a Basic Streamlit Application to Display Data
 ## World Happiness Explorer App
 For this project, I chose to build a Streamlit app to present data from the **2019 World Happiness Report**. This user-friendly app presents an overview of the data and offers features to examine and compare happiness measures of selected countries.
 
+### About the Data
+**Features:**
+
+- example visualizations
+
 ## Instructions to Run the App
 **To Open With Code:**
 1. [Download zip of Shannon-Data-Science-Portfolio](https://github.com/qfshannon/Shannon-Data-Science-Portfolio/archive/refs/heads/main.zip) and open in coding environment (VS Code)
