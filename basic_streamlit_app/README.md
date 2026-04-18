@@ -6,9 +6,13 @@ For this project, I chose to build a Streamlit app to present data from the **20
 
 ### About the Data
 **Features:**
-![WHR Data](data/whr_data.png)
 
-- example visualizations
+<p align="center">
+  <img src="./data/whr_data.png" alt="WHR Data" width="600">
+</p>
+
+**Example Visualizations:**
+
 
 ## Instructions to Run the App
 **To Open With Code:**
