@@ -15,6 +15,7 @@ For this project, I chose to build a Streamlit app to present data from the **20
 
 **Example Visualizations:**
 
+This app offers a variety of interactive features that allow users to personally engage with and explore the data. Users can examine happiness trends over time for a selected country, or compare multiple countries based on a chosen metric.
 <p align="center">
   <img src="./data/ex1.png" alt="WHR Data" width="400" style="display:inline-block;"/>
   <img src="./data/ex2.png" alt="WHR Data" width="380" style="display:inline-block;"/>
