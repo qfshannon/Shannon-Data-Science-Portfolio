@@ -8,10 +8,17 @@ For this project, I chose to build a Streamlit app to present data from the **20
 **Features:**
 
 <p align="center">
-  <img src="./data/whr_data.png" alt="WHR Data" width="600">
+  <img src="./data/whr_defs.png" alt="WHR Definitions" width="365" style="display:inline-block;"/>
+  <img src="./data/whr_data.png" alt="WHR Data" width="545" style="display:inline-block;"/>
 </p>
 
+
 **Example Visualizations:**
+
+<p align="center">
+  <img src="./data/ex1.png" alt="WHR Data" width="400" style="display:inline-block;"/>
+  <img src="./data/ex2.png" alt="WHR Data" width="380" style="display:inline-block;"/>
+</p>
 
 
 ## Instructions to Run the App
