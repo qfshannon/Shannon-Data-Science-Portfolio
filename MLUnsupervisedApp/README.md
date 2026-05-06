@@ -21,7 +21,7 @@ The goal of this project is to create an interactive Streamlit application that 
 - The app incorporates an interactive scatter plot, allowing users to select any two features from the dataset to visualize how data points with similar features can form distinct class clusters.
 - Although the scatter plot only displays two dimensions, this visualization strategy primes users to observe patterns similarly to K-Means Clustering.
 <p align="center">
-  <img src="visuals/dataset.png" width="350"> <img src="visuals/features.png" width="350">
+  <img src="visuals/dataset1.png" width="380"> <img src="visuals/features1.png" width="300">
 </p>
 
 **3. Live Model Evaluation**
@@ -30,5 +30,33 @@ Performance measures are calculated and displayed in real time based on dataset 
 - **Elbow Method:** a graphical approach to determine the optimal number of clusters by plotting the within-cluster sum of squares (WCSS) against the number of clusters (k).
 
 <p align="center">
-  <img src="visuals/output.png" width="350"> <img src="visuals/evalgraphs.png" width="350">
+  <img src="visuals/output1.png" width="300"> <img src="visuals/evaluation1.png" width="380">
 </p>
+
+## Instructions
+**Run the App Locally:** Follow these steps in your terminal
+
+1. Clone the repository
+   ```
+   git clone https://github.com/qfshannon/Shannon-Data-Science-Portfolio.git
+   ```
+2. Navigate to the app directory
+   ```
+   cd Shannon-Data-Science-Portfolio/MLUnsupervisedApp
+   ```
+3. Install requirements
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the app
+   ```
+   streamlit run main.py
+   ```
+
+**Access the Deployed App**: Access the app through [Streamlit Cloud](https://shannon-data-science-portfolio-qsrwqvciodkw7mnamtvvjo.streamlit.app/)
+
+## References
+- [Scikit-learn K-Means Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Pandas API Reference](https://pandas.pydata.org/docs/reference/index.html#api)
+- [Matplotlib API Reference](https://matplotlib.org/stable/api/index.html)
