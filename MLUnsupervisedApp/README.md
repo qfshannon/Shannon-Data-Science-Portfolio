@@ -34,9 +34,9 @@ Performance measures are calculated and displayed in real time based on dataset 
 </p>
 
 ## Instructions
-**Access the Deployed App**: Access the app through [Streamlit Cloud](https://shannon-data-science-portfolio-qsrwqvciodkw7mnamtvvjo.streamlit.app/)
+**Access the Deployed App**: Access the app through [Streamlit Cloud](https://shannon-data-science-portfolio-qsrwqvciodkw7mnamtvvjo.streamlit.app/).
 
-**Run the App Locally:** Follow these steps in your terminal
+**Run the App Locally:** Follow these steps in your terminal.
 
 1. Clone the repository
    ```
