@@ -1,5 +1,5 @@
 # Data Science Project #1: Present Data with Streamlit
-Goal: Design a Basic Streamlit Application to Display Data
+Goal: Design a basic Streamlit application to display data interactively.
 
 ## World Happiness Explorer App
 For this project, I chose to build a Streamlit app to present data from the **2019 World Happiness Report**. This user-friendly app presents an overview of the data and offers features to examine and compare happiness measures of selected countries.
