@@ -194,7 +194,8 @@ with tab3:
     
     st.markdown("Click the button below to visualize the elbow method and silhouette score graphs for a range of k values.")  # Button allows users to choose when to reveal information relevant to optimal cluster selection, giving users the chance to experiment with parameters and learn firsthand how they influence model performance
     if st.button("Visualize Elbow Method and Silhouette Scores"):
-        st.markdown("Use both methods together when considering an optimal k value. A high silhouette score with a clear elbow provides the most robust choice for optimal k.")
+        st.subheader("Elbow Method and Silhouette Scores Across k Values")
+        st.markdown("Use elbow method and silhouette scores together when considering an optimal k value. A high silhouette score with a clear elbow provides the most robust choice for optimal k.")
 
         # Define the range of k values to try
         ks = range(2, 11)  # Starting from 2 clusters to 10 clusters
