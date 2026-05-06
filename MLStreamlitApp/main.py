@@ -1,4 +1,4 @@
-# This Streamlit app allows users to select a dataset andexplore how different parameters influence the performance of a K-Nearest Neighbors (KNN) machine learning model.
+# This Streamlit app allows users to select a dataset and explore how different parameters influence the performance of a K-Nearest Neighbors (KNN) machine learning model.
 
 # Step 0: Import libraries used to build the app, handle data, build the KNN model, and visualize and evaluate its performance.
 import streamlit as st
@@ -52,17 +52,7 @@ with tab2:
     st.markdown("Take a moment to visualize your chosen dataset and its features! This will help you understand the data and how KNN works to classify data points based on feature similarity.")
 
     # Load a dataset based on the user's input.
-    if data_options == "Breast Cancer":
-        # Access and load the built-in Breast Cancer dataset from scikit-learn.
-        from sklearn.datasets import load_breast_cancer
-        cancer = load_breast_cancer()
-        df = pd.DataFrame(cancer.data, columns=cancer.feature_names)  # Create a DataFrame, set feature names as column headers.
-        df["target"] = cancer.target  # Identify the target variable.
-        # Create a button to preview the selected dataset.
-        st.subheader("Dataset Preview")
-        if st.button("Click here to view"):
-            st.dataframe(df.head())
-    elif data_options == "Wines":
+    if data_options == "Wines":
         # Access and load the built-in Wine dataset from scikit-learn
         from sklearn.datasets import load_wine
         wine = load_wine()
