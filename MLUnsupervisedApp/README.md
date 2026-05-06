@@ -14,5 +14,13 @@ The goal of this project is to create an interactive Streamlit application that 
   - **Algorithm:** Users can select the 'lloyd' (iteratively assigns points to the nearest cluster centroid and then updates the centroids based on the mean) or 'elkan' (uses triangle inequality to reduce the number of distance calculations) algorithm used to compute k-means clustering.
 
 <p align="center">
-  <img src="visuals/sidebar.png" width="250">
+  <img src="visuals/sidebar.png" width="180">
+</p>
+
+**2. Feature Visualization**
+- The app incorporates an interactive scatter plot, allowing users to select any two features from the dataset to visualize how data points with similar features can form distinct class clusters.
+- Although the scatter plot only displays two dimensions, this visualization strategy primes users to observe patterns similarly to K-Means Clustering.
+
+<p align="center">
+  <img src="visuals/dataset.png" width="300"> <img src="visuals/visualization.png" width="275">
 </p>
