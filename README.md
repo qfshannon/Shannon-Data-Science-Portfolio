@@ -47,3 +47,7 @@ This repository showcases my developing programming proficiency and data literac
 - View my [Unsupervised Machine Learning project](MLUnsupervisedApp)
     - For this project, I created an interactive Streamlit application that allows users to explore how a K-Means Clustering model identifies structure, groups observations, and uncovers hidden patterns in unlabeled data. Users can select or upload a dataset and adjust parameters to learn how their choices impact model performance.
     - Completing this project helped me gain hands-on experience with unsupervised machine learning, while producing an accessible deliverable for viewers without prior unsupervised machine learning experience.
+
+<p align="center">
+  <image src="./assets/Project4.png" width="600">
+</p>
