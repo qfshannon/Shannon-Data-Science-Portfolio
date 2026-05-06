@@ -2,7 +2,9 @@
 Goal: Design a Basic Streamlit Application to Display Data
 
 ## World Happiness Explorer App
-For this project, I chose to build a Streamlit app to present data from the **2019 World Happiness Report**. This user-friendly app presents an overview of the data and offers features to examine and compare happiness measures of selected countries. This project demonstrates my progress in python and data communication.
+For this project, I chose to build a Streamlit app to present data from the **2019 World Happiness Report**. This user-friendly app presents an overview of the data and offers features to examine and compare happiness measures of selected countries.
+
+This project demonstrates my progress in python and data communication.
 
 ### About the Data
 **Features:**
