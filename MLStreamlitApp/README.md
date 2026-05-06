@@ -1,4 +1,4 @@
-# Data Science Project #3: Supervised Machine Learning Application Project
+# Data Science Project #3: Supervised Machine Learning Application
 
 ## Project Overview: K-Nearest Neighbors Machine Learning Explorer
 The goal of this project is to create an interactive Streamlit application that allows users to explore K-Nearest Neighbors (KNN) machine learning. Users can experiment with model parameters and visualize how their choices impact classification performance on a dataset of their choosing.
