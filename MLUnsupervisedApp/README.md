@@ -1,4 +1,4 @@
-# Data Science Project #4: Unupervised Machine Learning Application Project
+# Data Science Project #4: Unupervised Machine Learning Application
 
 ## Project Overview: K-Means Clustering Machine Learning Explorer
 The goal of this project is to create an interactive Streamlit application that allows users to explore K-Means Clustering machine learning. Users can experiment with model parameters and visualize how their choices impact clustering performance on a dataset of their choosing.
