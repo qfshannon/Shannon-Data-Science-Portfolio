@@ -20,10 +20,8 @@ The goal of this project is to create an interactive Streamlit application that 
 **2. Feature Visualization**
 - The app incorporates an interactive scatter plot, allowing users to select any two features from the dataset to visualize how data points with similar features can form distinct class clusters.
 - Although the scatter plot only displays two dimensions, this visualization strategy primes users to observe patterns similarly to K-Means Clustering.
-
 <p align="center">
-  <img src="visuals/dataset.png" width="350">
-  <img src="visuals/features.png" width="350">
+  <img src="visuals/dataset.png" width="350"> <img src="visuals/features.png" width="350">
 </p>
 
 **3. Live Model Evaluation**
@@ -32,6 +30,5 @@ Performance measures are calculated and displayed in real time based on dataset 
 - **Elbow Method:** a graphical approach to determine the optimal number of clusters by plotting the within-cluster sum of squares (WCSS) against the number of clusters (k).
 
 <p align="center">
-  <img src="visuals/output.png" width="350">
-  <img src="visuals/evaluation.png" width="350">
+  <img src="visuals/output.png" width="350"> <img src="visuals/evalgraphs.png" width="350">
 </p>
