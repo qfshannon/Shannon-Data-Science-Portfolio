@@ -34,6 +34,8 @@ Performance measures are calculated and displayed in real time based on dataset 
 </p>
 
 ## Instructions
+**Access the Deployed App**: Access the app through [Streamlit Cloud](https://shannon-data-science-portfolio-qsrwqvciodkw7mnamtvvjo.streamlit.app/)
+
 **Run the App Locally:** Follow these steps in your terminal
 
 1. Clone the repository
@@ -52,8 +54,6 @@ Performance measures are calculated and displayed in real time based on dataset 
    ```
    streamlit run main.py
    ```
-
-**Access the Deployed App**: Access the app through [Streamlit Cloud](https://shannon-data-science-portfolio-qsrwqvciodkw7mnamtvvjo.streamlit.app/)
 
 ## References
 - [Scikit-learn K-Means Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
