@@ -199,7 +199,7 @@ with tab3:
 
         # Define the range of k values to try
         ks = range(2, 11)  # Starting from 2 clusters to 10 clusters
-        wcss = []  # Within-Cluster Sum of Squares for each k
+        wcss = []  # Within-Cluster Sum of Squares (WCSS) for each k; the goal is to minimize the wWCSS, which measures the total variance within each cluster
         silhouette_scores = []  # Silhouette scores for each k
         
         # Loop over the range of k values
