@@ -22,5 +22,5 @@ The goal of this project is to create an interactive Streamlit application that 
 - Although the scatter plot only displays two dimensions, this visualization strategy primes users to observe patterns similarly to K-Means Clustering.
 
 <p align="center">
-  <img src="visuals/dataset.png" width="300"> <img src="visuals/visualization.png" width="300">
+  <img src="visuals/dataset.png" width="300"> <img src="visuals/featurevis.png" width="300">
 </p>
